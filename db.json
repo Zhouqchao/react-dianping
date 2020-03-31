@@ -1,6 +1,5 @@
 {
-  "comments": [
-    {
+  "comments": [{
       "comment": "味道好极了",
       "star": 5,
       "time": 1585644405705,
@@ -13,8 +12,7 @@
       "id": 2
     }
   ],
-  "keywords": [
-    {
+  "keywords": [{
       "id": "k-1",
       "keyword": "三里屯"
     },
@@ -52,8 +50,7 @@
     }
   ],
   "orders": [],
-  "product_details": [
-    {
+  "product_details": [{
       "id": "p-1",
       "shopIds": [
         "s-10",
@@ -71,18 +68,15 @@
       "saleDesc": "已售6034",
       "detail": {
         "category": "红果酪",
-        "products": [
-          {
-            "name": "百果香（冷饮）",
-            "quantity": "1扎",
-            "price": "48元"
-          }
-        ],
+        "products": [{
+          "name": "百果香（冷饮）",
+          "quantity": "1扎",
+          "price": "48元"
+        }],
         "remark": "免费提供餐巾纸"
       },
       "validityPeriod": "2018-10-20至2019-09-15",
-      "purchaseNotes": [
-        {
+      "purchaseNotes": [{
           "title": "除外日期",
           "content": "有效期内周末、法定节假日可用"
         },
@@ -130,18 +124,15 @@
       "saleDesc": "已售6034",
       "detail": {
         "category": "饮品",
-        "products": [
-          {
-            "name": "百果香（冷饮）",
-            "quantity": "1扎",
-            "price": "48元"
-          }
-        ],
+        "products": [{
+          "name": "百果香（冷饮）",
+          "quantity": "1扎",
+          "price": "48元"
+        }],
         "remark": "免费提供餐巾纸"
       },
       "validityPeriod": "2018-10-20至2019-09-15",
-      "purchaseNotes": [
-        {
+      "purchaseNotes": [{
           "title": "除外日期",
           "content": "有效期内周末、法定节假日可用"
         },
@@ -189,18 +180,15 @@
       "saleDesc": "已售6034",
       "detail": {
         "category": "饮品",
-        "products": [
-          {
-            "name": "百果香（冷饮）",
-            "quantity": "1扎",
-            "price": "48元"
-          }
-        ],
+        "products": [{
+          "name": "百果香（冷饮）",
+          "quantity": "1扎",
+          "price": "48元"
+        }],
         "remark": "免费提供餐巾纸"
       },
       "validityPeriod": "2018-10-20至2019-09-15",
-      "purchaseNotes": [
-        {
+      "purchaseNotes": [{
           "title": "除外日期",
           "content": "有效期内周末、法定节假日可用"
         },
@@ -248,18 +236,15 @@
       "saleDesc": "已售6034",
       "detail": {
         "category": "饮品",
-        "products": [
-          {
-            "name": "百果香（冷饮）",
-            "quantity": "1扎",
-            "price": "48元"
-          }
-        ],
+        "products": [{
+          "name": "百果香（冷饮）",
+          "quantity": "1扎",
+          "price": "48元"
+        }],
         "remark": "免费提供餐巾纸"
       },
       "validityPeriod": "2018-10-20至2019-09-15",
-      "purchaseNotes": [
-        {
+      "purchaseNotes": [{
           "title": "除外日期",
           "content": "有效期内周末、法定节假日可用"
         },
@@ -307,18 +292,15 @@
       "saleDesc": "已售6034",
       "detail": {
         "category": "饮品",
-        "products": [
-          {
-            "name": "百果香（冷饮）",
-            "quantity": "1扎",
-            "price": "48元"
-          }
-        ],
+        "products": [{
+          "name": "百果香（冷饮）",
+          "quantity": "1扎",
+          "price": "48元"
+        }],
         "remark": "免费提供餐巾纸"
       },
       "validityPeriod": "2018-10-20至2019-09-15",
-      "purchaseNotes": [
-        {
+      "purchaseNotes": [{
           "title": "除外日期",
           "content": "有效期内周末、法定节假日可用"
         },
@@ -366,18 +348,15 @@
       "saleDesc": "已售6034",
       "detail": {
         "category": "饮品",
-        "products": [
-          {
-            "name": "百果香（冷饮）",
-            "quantity": "1扎",
-            "price": "48元"
-          }
-        ],
+        "products": [{
+          "name": "百果香（冷饮）",
+          "quantity": "1扎",
+          "price": "48元"
+        }],
         "remark": "免费提供餐巾纸"
       },
       "validityPeriod": "2018-10-20至2019-09-15",
-      "purchaseNotes": [
-        {
+      "purchaseNotes": [{
           "title": "除外日期",
           "content": "有效期内周末、法定节假日可用"
         },
@@ -425,18 +404,15 @@
       "saleDesc": "已售6034",
       "detail": {
         "category": "饮品",
-        "products": [
-          {
-            "name": "百果香（冷饮）",
-            "quantity": "1扎",
-            "price": "48元"
-          }
-        ],
+        "products": [{
+          "name": "百果香（冷饮）",
+          "quantity": "1扎",
+          "price": "48元"
+        }],
         "remark": "免费提供餐巾纸"
       },
       "validityPeriod": "2018-10-20至2019-09-15",
-      "purchaseNotes": [
-        {
+      "purchaseNotes": [{
           "title": "除外日期",
           "content": "有效期内周末、法定节假日可用"
         },
@@ -484,18 +460,15 @@
       "saleDesc": "已售6034",
       "detail": {
         "category": "饮品",
-        "products": [
-          {
-            "name": "百果香（冷饮）",
-            "quantity": "1扎",
-            "price": "48元"
-          }
-        ],
+        "products": [{
+          "name": "百果香（冷饮）",
+          "quantity": "1扎",
+          "price": "48元"
+        }],
         "remark": "免费提供餐巾纸"
       },
       "validityPeriod": "2018-10-20至2019-09-15",
-      "purchaseNotes": [
-        {
+      "purchaseNotes": [{
           "title": "除外日期",
           "content": "有效期内周末、法定节假日可用"
         },
@@ -526,9 +499,38 @@
       ]
     }
   ],
-  "product_discounts": [],
-  "product_likes": [
+  "product_discounts": [{
+      "id": "p-100",
+      "url": "https://m.dianping.com/tuan/deal/8225736?from=m_discount",
+      "shopId": "s-100",
+      "shop": "泫舞舞蹈俱乐部",
+      "product": "泫舞舞蹈俱乐部",
+      "currentPrice": 1,
+      "oldPrice": 400,
+      "picture": "https://p1.meituan.net/dpdeal/a8eb71748e1f4df175668368e98bb4f868511.jpg.webp@120w_90h_1e_1c_1l|watermark=1&&r=1&p=9&x=20&y=20"
+    },
     {
+      "id": "p-101",
+      "url": "https://m.dianping.com/tuan/deal/21954393?from=m_discount",
+      "shopId": "s-101",
+      "shop": "忍·寿司",
+      "product": "忍·寿司",
+      "currentPrice": 1,
+      "oldPrice": 2,
+      "picture": "https://p0.meituan.net/deal/2540cbdfbab2b413491101cee34bbb7a51839.jpg.webp@120w_90h_1e_1c_1l|watermark=1&&r=1&p=9&x=20&y=20"
+    },
+    {
+      "id": "p-102",
+      "url": "https://m.dianping.com/tuan/deal/30093047?from=m_discount",
+      "shopId": "s-102",
+      "shop": "关忠动物医院",
+      "product": "关忠动物医院",
+      "currentPrice": 1,
+      "oldPrice": 349,
+      "picture": "https://p1.meituan.net/dpdeal/ef9356fa57c8382bfae0787101a69d2e164461.jpg.webp@120w_90h_1e_1c_1l|watermark=1&&r=1&p=9&x=20&y=20"
+    }
+  ],
+  "product_likes": [{
       "id": "p-1",
       "shopIds": [
         "s-1",
@@ -597,23 +599,20 @@
       "saleDesc": "已售23976"
     }
   ],
-  "shops": [
-    {
-      "id": "s-10",
-      "url": "https://m.dianping.com/shop/15953643",
-      "pic": "https://img.meituan.net/msmerchant/87aeebb940258678472b3c587e930399787685.jpg%40300w_225h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
-      "shop": "院落创意菜(五彩城店)",
-      "star": 40,
-      "price": 99,
-      "commentQuantity": 6499,
-      "region": "清河",
-      "category": "私房菜",
-      "address": "清河中街68号华润五彩城购物中心东区5层",
-      "phone": "01069614833"
-    }
-  ],
-  "searched_shops": [
-    {
+  "shops": [{
+    "id": "s-10",
+    "url": "https://m.dianping.com/shop/15953643",
+    "pic": "https://img.meituan.net/msmerchant/87aeebb940258678472b3c587e930399787685.jpg%40300w_225h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+    "shop": "院落创意菜(五彩城店)",
+    "star": 40,
+    "price": 99,
+    "commentQuantity": 6499,
+    "region": "清河",
+    "category": "私房菜",
+    "address": "清河中街68号华润五彩城购物中心东区5层",
+    "phone": "01069614833"
+  }],
+  "searched_shops": [{
       "id": "s-1",
       "url": "https://m.dianping.com/shop/513329?from=shoplist&shoplistqueryid=af807de1-9f6f-4a99-900b-5c7e13ebdfd0",
       "pic": "https://img.meituan.net/msmerchant/fd1c444778ad80fb823a6d35f5cd3819391040.jpg@120w_120h_1e_1c_1l|watermark=1&&r=1&p=9&x=2&y=2&relative=1&o=20",
