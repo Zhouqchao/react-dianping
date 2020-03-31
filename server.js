@@ -10,7 +10,7 @@ const root = path.resolve(
   __dirname,
   NODE_ENV === "production" ? "build" : "public"
 );
-const port = 3004;
+const port = process.env.LEANCLOUD_APP_PORT || 3004;
 // 配置前端路由
 const reactRouters = [
   "/login",

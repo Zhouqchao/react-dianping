@@ -22,11 +22,11 @@
     "reselect": "^4.0.0"
   },
   "scripts": {
-    "start": "react-scripts start --max-old-space-size=2048",
+    "start": "node server.js",
+    "dev": "concurrently 'react-scripts start' 'npm run serve'",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "mock": "json-server --watch db.json --port 3004",
     "serve": "node server.js env NODE_ENV=development"
   },
   "eslintConfig": {
@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "concurrently": "^5.1.0",
     "redux-logger": "^3.0.6"
   },
   "proxy": "http://localhost:3004"
