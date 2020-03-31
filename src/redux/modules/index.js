@@ -4,6 +4,7 @@ import app from "./app";
 import login from "./login";
 import home from "./home";
 import detail from "./detail";
+import purchase from "./purchase";
 import search from "./search";
 import user from "./user";
 
@@ -14,5 +15,6 @@ export default combineReducers({
   user,
   home,
   detail,
+  purchase,
   search
 });

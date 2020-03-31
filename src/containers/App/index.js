@@ -8,6 +8,7 @@ import PrivateRoute from "../../components/PrivateRoute";
 import { actions as appActions, getError } from "../../redux/modules/app";
 import Home from "../Home";
 import ProductDetail from "../ProductDetail";
+import Purchase from "../Purchase";
 import Search from "../Search";
 import SearchResult from "../SearchResult";
 import Login from "../Login";
@@ -30,6 +31,9 @@ class App extends React.Component {
             <Route path="/search">
               <Search />
             </Route>
+            <PrivateRoute path="/purchase/:id">
+              <Purchase />
+            </PrivateRoute>
             <Route path="/detail/:id">
               <ProductDetail />
             </Route>
