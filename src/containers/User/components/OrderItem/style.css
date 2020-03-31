@@ -1,0 +1,138 @@
+.order-item {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-item__header {
+  display: flex;
+  height: 45px;
+  align-items: center;
+  color: #111;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.order-item__main {
+  display: flex;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.order-item__img-wrapper {
+  height: 80px;
+  width: 80px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.order-item__img {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.order-item__tag {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #c39c6d;
+  color: #fff;
+  font-size: 12px;
+  height: 22px;
+  line-height: 22px;
+}
+
+
+.order-item__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 8px 0 10px;
+  min-width: 0;
+}
+
+.order-item__line {
+  font-size: 14px;
+  line-height: 28px;
+  color: #555;
+  white-space: nowrap;
+  word-wrap: normal;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+}
+
+.order-item__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+}
+
+.order-item__category {
+  font-size: 13px;
+  color: #999;
+  line-height: 13px;
+}
+
+.order-item__btn {
+  display: inline-block;
+  border: 1px solid #bbb;
+  background-color: #fff;
+  color: #555;
+  height: 27px;
+  width: 62px;
+  border-radius: 2px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 27px;
+  margin-left: 13px;
+}
+
+
+/*** 评价  ***/
+
+.order-comment {
+  padding-bottom: 10px;
+}
+
+.order-comment__text {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.order-comment__stars {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.order-comment__star {
+  color: #999;
+}
+
+.order-comment__star--light {
+  color: rgb(233, 32, 61);
+}
+
+.order-comment__btn {
+  display: inline-block;
+  border: 1px solid #bbb;
+  color: #555;
+  background-color: #fff;
+  height: 27px;
+  width: 62px;
+  border-radius: 2px;
+  font-size: 12px;
+  text-align: center;
+}

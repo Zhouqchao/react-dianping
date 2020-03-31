@@ -18,10 +18,11 @@
     "react-scripts": "3.4.1",
     "react-slick": "^0.25.2",
     "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0"
   },
   "scripts": {
-    "start": "react-scripts start --max-old-space-size=4096",
+    "start": "react-scripts start --max-old-space-size=2048",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

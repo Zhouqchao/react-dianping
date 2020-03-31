@@ -30,10 +30,10 @@ class Login extends Component {
   render() {
     const { username, password, logged, loginActions, location } = this.props;
     const { login } = loginActions;
-    const from = location.state || { from: { pathname: "/" } };
+    const { from } = location.state || { from: { pathname: "/" } };
 
     if (logged) {
-      return <Redirect to={from} />;
+      return <Redirect to={from.pathname} />;
     }
 
     return (

@@ -4,12 +4,14 @@ import { bindActionCreators } from "redux";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./style.css";
 import ErrorToast from "../../components/ErrorToast";
+import PrivateRoute from "../../components/PrivateRoute";
 import { actions as appActions, getError } from "../../redux/modules/app";
 import Home from "../Home";
 import ProductDetail from "../ProductDetail";
 import Search from "../Search";
 import SearchResult from "../SearchResult";
 import Login from "../Login";
+import User from "../User";
 
 class App extends React.Component {
   render() {
@@ -31,6 +33,9 @@ class App extends React.Component {
             <Route path="/detail/:id">
               <ProductDetail />
             </Route>
+            <PrivateRoute path="/user">
+              <User />
+            </PrivateRoute>
             <Route path="/login">
               <Login />
             </Route>

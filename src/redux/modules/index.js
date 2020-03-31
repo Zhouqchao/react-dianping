@@ -5,5 +5,14 @@ import login from "./login";
 import home from "./home";
 import detail from "./detail";
 import search from "./search";
+import user from "./user";
 
-export default combineReducers({ entities, app, login, home, detail, search });
+export default combineReducers({
+  entities,
+  app,
+  login,
+  user,
+  home,
+  detail,
+  search
+});
