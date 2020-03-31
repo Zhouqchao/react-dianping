@@ -1,9 +1,6 @@
 import { createSelector } from "reselect";
 import { getProductDetail } from "../modules/entities/products";
-import {
-  ORDER_TYPES,
-  actions as orderActions
-} from "../modules/entities/orders";
+import { ORDER_TYPES } from "../modules/entities/orders";
 import { post } from "../../utils/request";
 import url from "../../utils/url";
 // state

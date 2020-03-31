@@ -3,7 +3,7 @@ import "./style.css";
 
 class RatingStar extends Component {
   render() {
-    const { score, children } = this.props;
+    const { score } = this.props;
     const width = (score / 50) * 100 + "%";
 
     return (

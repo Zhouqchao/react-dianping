@@ -30,7 +30,6 @@ class PurchaseForm extends Component {
       quantity,
       totalPrice,
       phone,
-      setOrderQuantity,
       handleOrderSubmit
     } = this.props;
 

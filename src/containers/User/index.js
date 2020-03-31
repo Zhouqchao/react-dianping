@@ -48,7 +48,6 @@ class User extends Component {
   render() {
     const { currentTab, orders, isFetching, showConfirm } = this.props;
     const { logout } = this.props.loginActions;
-    const { setShowConfirm } = this.props.userActions;
 
     return (
       <div className="user">

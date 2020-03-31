@@ -2,8 +2,7 @@ import { createSelector } from "reselect";
 import { combineReducers } from "redux";
 import { get, post, remove } from "../../utils/request";
 import url from "../../utils/url";
-import { schema, actions as orderActions } from "./entities/orders";
-import { actions as commentActions } from "./entities/comments";
+import { schema } from "./entities/orders";
 import {
   ORDER_TYPES,
   getOrders as getAllOrders

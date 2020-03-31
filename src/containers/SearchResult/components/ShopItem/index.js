@@ -5,7 +5,6 @@ import RatingStar from "../../../../components/RatingStar";
 class ShopItem extends Component {
   render() {
     const {
-      id,
       url,
       pic,
       shop,

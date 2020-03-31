@@ -24,10 +24,6 @@ export const types = {
 
 export const actions = {
   loginFailure: error => ({ type: types.LOGIN_FAILURE, error }),
-  login: (username, password) => ({
-    types: [types.LOGIN_REQUEST, types.LOGIN_SUCCESS, types.LOGIN_FAILURE],
-    callAPI: () => post(url.login(), { username, password })
-  }),
   login: () => {
     return (dispatch, getState) => {
       // 表单验证

@@ -30,7 +30,7 @@ class ProductDetail extends Component {
     }
   }
   componentDidUpdate(preProps) {
-    const { product, relatedShop } = this.props;
+    const { product } = this.props;
     // 第一次获取到产品详情时，需要继续获取关联的店铺信息
     if (!preProps.product && this.props.product) {
       this.props.detailActions.fetchShopById(product.nearestShop);

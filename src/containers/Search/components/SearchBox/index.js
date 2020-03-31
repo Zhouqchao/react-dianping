@@ -3,9 +3,6 @@ import { withRouter } from "react-router-dom";
 import "./style.css";
 
 class SearchBox extends Component {
-  constructor(props) {
-    super(props);
-  }
   handleInputChange = e => {
     const text = e.target.value.trim();
     this.props.setText(text);

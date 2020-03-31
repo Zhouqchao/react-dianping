@@ -12,9 +12,6 @@ import { actions as orderActions } from "../../../../redux/modules/entities/orde
 import { bindActionCreators } from "redux";
 
 class OrderItem extends Component {
-  constructor(props) {
-    super(props);
-  }
   renderStars = () => {
     const { star } = this.props;
     const { setStar } = this.props.userActions;
@@ -66,19 +63,13 @@ class OrderItem extends Component {
     });
   };
   handleCancelComment = () => {
-    const {
-      hideCommentSection,
-      setComment,
-      setStar,
-      resetCurrentOrder
-    } = this.props.userActions;
-    const { currentOrder } = this.props;
+    const { hideCommentSection, resetCurrentOrder } = this.props.userActions;
 
     hideCommentSection();
     resetCurrentOrder();
   };
   renderComment = () => {
-    const { hideCommentSection, setComment } = this.props.userActions;
+    const { setComment } = this.props.userActions;
     const { comment } = this.props;
 
     return (
@@ -120,8 +111,7 @@ class OrderItem extends Component {
       orderPicUrl,
       channel: category,
       title,
-      text,
-      type
+      text
     } = this.props.data;
     const { deleteOrder, isShowCommentSection, currentOrder } = this.props;
 

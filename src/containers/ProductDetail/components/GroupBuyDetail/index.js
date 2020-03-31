@@ -1,17 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
 
-const dataSource = {
-  title: "鸡腿",
-  product: {
-    name: "新品鸡腿",
-    count: 1,
-    oldPrice: 6,
-    currentPrice: 3.99
-  },
-  remark: "免费提供餐巾纸"
-};
-
 class GroupBuyDetail extends Component {
   render() {
     const {

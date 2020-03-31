@@ -6,9 +6,6 @@ import Loading from "../../../../components/Loading";
 const tabTitles = ["全部订单", "代付款", "可使用", "退款/售后"];
 
 class UserMain extends Component {
-  constructor(props) {
-    super(props);
-  }
   renderOrderList = data => {
     return data.map(item => (
       <OrderItem
@@ -31,13 +28,7 @@ class UserMain extends Component {
     );
   };
   render() {
-    const {
-      currentTab,
-      setCurrentTab,
-      data,
-      handleTabClick,
-      isFetching
-    } = this.props;
+    const { currentTab, data, handleTabClick, isFetching } = this.props;
 
     return (
       <div className="user-main">

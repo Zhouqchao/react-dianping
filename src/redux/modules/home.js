@@ -110,8 +110,9 @@ const likesReducer = (state = initialState.likes, action) => {
         ...state,
         isFetching: false
       };
+    default:
+      return state;
   }
-  return state;
 };
 
 const discountsReducer = (state = initialState.discounts, action) => {
@@ -132,8 +133,9 @@ const discountsReducer = (state = initialState.discounts, action) => {
         ...state,
         isFetching: false
       };
+    default:
+      return state;
   }
-  return state;
 };
 
 export default combineReducers({
