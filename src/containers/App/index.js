@@ -1,9 +1,11 @@
 import React from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./style.css";
 import ErrorToast from "../../components/ErrorToast";
 import { actions as appActions, getError } from "../../redux/modules/app";
+import Home from "../Home";
 
 class App extends React.Component {
   render() {
@@ -14,7 +16,14 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        React仿大众点评
+        <Router>
+          <Switch>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </Router>
+
         {error && <ErrorToast msg={error} clearError={clearError} />}
       </div>
     );

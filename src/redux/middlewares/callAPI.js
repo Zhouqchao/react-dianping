@@ -1,3 +1,23 @@
+const normalizeData = (data, schema) => {
+  const { id, name } = schema;
+  let obj = {};
+  let ids = [];
+  if (Array.isArray(data)) {
+    data.map(item => {
+      obj[item[id]] = item;
+      ids.push(item[id]);
+    });
+  } else {
+    obj[data[id]] = data;
+    ids.push(data[id]);
+  }
+
+  return {
+    [name]: obj,
+    ids
+  };
+};
+
 export default function callAPIMiddleware({ dispatch, getState }) {
   return next => action => {
     const {
@@ -41,7 +61,7 @@ export default function callAPIMiddleware({ dispatch, getState }) {
       response =>
         dispatch(
           Object.assign({}, payload, {
-            response,
+            response: schema ? normalizeData(response, schema) : response,
             type: successType
           })
         ),

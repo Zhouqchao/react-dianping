@@ -1,0 +1,59 @@
+.headline {
+  display: flex;
+  align-items: center;
+}
+
+.headline__logo {
+  width: 50px;
+  height: 65px;
+  flex-basis: 50px;
+  background-image: url('http://www.dpfile.com/app/app-m-module/static/a4af59210e26080ea9403fff6e56e6b1.png');
+  background-position: -86px 18px;
+  background-repeat: no-repeat;
+  background-size: 186px;
+}
+
+.headline__logo::after {
+  background-image: linear-gradient(90deg, #e1e1e1, #e1e1e1 50%, transparent 50%);
+  background-position: top right;
+  background-size: 1px 100%;
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.headline__slider {
+  height: 65px;
+  flex: 1;
+  overflow: hidden;
+}
+
+.headline__link {
+  display: inline-block;
+  height: 65px;
+  width: 100%;
+}
+
+.headline__item {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headline__title {
+  width: calc(100% - 75px);
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #111;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.headline__img {
+  width: 45px;
+  height: 45px;
+}

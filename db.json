@@ -1,0 +1,704 @@
+{
+  "comments": [],
+  "keywords": [
+    {
+      "id": "k-1",
+      "keyword": "三里屯"
+    },
+    {
+      "id": "k-2",
+      "keyword": "朝阳大悦城"
+    },
+    {
+      "id": "k-3",
+      "keyword": "西单"
+    },
+    {
+      "id": "k-4",
+      "keyword": "海底捞"
+    },
+    {
+      "id": "k-5",
+      "keyword": "星巴克"
+    },
+    {
+      "id": "k-6",
+      "keyword": "局气"
+    },
+    {
+      "id": "k-7",
+      "keyword": "火锅"
+    },
+    {
+      "id": "k-8",
+      "keyword": "温泉"
+    },
+    {
+      "id": "k-9",
+      "keyword": "烤鸭"
+    }
+  ],
+  "orders": [
+    {
+      "statusText": "待消费",
+      "orderPicUrl": "https://p0.meituan.net/deal/e6864ed9ce87966af11d922d5ef7350532676.jpg@450w_280h_1e_1c_1l|watermark=1&&r=1&p=9&x=2&y=2&relative=1&o=20",
+      "channel": "红果酪",
+      "title": "院落创意菜:「3店通用」百香果（冷饮）1扎",
+      "text": [
+        "3张 | 总价：￥59.7",
+        "2018-10-20至2019-09-15"
+      ],
+      "type": 3,
+      "time": 1585486762230,
+      "id": 1
+    }
+  ],
+  "product_details": [
+    {
+      "id": "p-1",
+      "shopIds": [
+        "s-10",
+        "s-11",
+        "s-12"
+      ],
+      "nearestShop": "s-10",
+      "shop": "院落创意菜",
+      "tag": "免预约",
+      "picture": "https://p0.meituan.net/deal/e6864ed9ce87966af11d922d5ef7350532676.jpg@450w_280h_1e_1c_1l|watermark=1&&r=1&p=9&x=2&y=2&relative=1&o=20",
+      "product": "「3店通用」百香果（冷饮）1扎",
+      "description": "仅售19.9元！价值48元的百香果（冷饮）1扎，提供免费WiFi。",
+      "currentPrice": 19.9,
+      "oldPrice": 48,
+      "saleDesc": "已售6034",
+      "detail": {
+        "category": "红果酪",
+        "products": [
+          {
+            "name": "百果香（冷饮）",
+            "quantity": "1扎",
+            "price": "48元"
+          }
+        ],
+        "remark": "免费提供餐巾纸"
+      },
+      "validityPeriod": "2018-10-20至2019-09-15",
+      "purchaseNotes": [
+        {
+          "title": "除外日期",
+          "content": "有效期内周末、法定节假日可用"
+        },
+        {
+          "title": "使用时间",
+          "content": "团购券使用时间：11:00-22:00"
+        },
+        {
+          "title": "预约提醒",
+          "content": "无需预约，消费高峰时可能需要等位"
+        },
+        {
+          "title": "规则提醒",
+          "content": "每张团购券建议2人使用"
+        },
+        {
+          "title": "包间",
+          "content": "可用包间，条件为：详询商户"
+        },
+        {
+          "title": "堂食外带",
+          "content": "仅限堂食，不提供餐前外带，餐毕未吃完可打包，打包费详情咨询商家"
+        },
+        {
+          "title": "商家服务",
+          "content": "提供免费WiFi"
+        }
+      ]
+    },
+    {
+      "id": "p-2",
+      "shopIds": [
+        "s-10",
+        "s-11",
+        "s-12"
+      ],
+      "nearestShop": "s-10",
+      "shop": "正一味",
+      "tag": "免预约",
+      "picture": "https://p0.meituan.net/deal/4d32b2d9704fda15aeb5b4dc1d4852e2328759.jpg@450w_280h_1e_1c_1l|watermark=1&&r=1&p=9&x=2&y=2&relative=1&o=20",
+      "product": "「3店通用」百香果（冷饮）1扎",
+      "description": "仅售19.9元！价值48元的百香果（冷饮）1扎，提供免费WiFi。",
+      "currentPrice": 19.9,
+      "oldPrice": 48,
+      "saleDesc": "已售6034",
+      "detail": {
+        "category": "饮品",
+        "products": [
+          {
+            "name": "百果香（冷饮）",
+            "quantity": "1扎",
+            "price": "48元"
+          }
+        ],
+        "remark": "免费提供餐巾纸"
+      },
+      "validityPeriod": "2018-10-20至2019-09-15",
+      "purchaseNotes": [
+        {
+          "title": "除外日期",
+          "content": "有效期内周末、法定节假日可用"
+        },
+        {
+          "title": "使用时间",
+          "content": "团购券使用时间：11:00-22:00"
+        },
+        {
+          "title": "预约提醒",
+          "content": "无需预约，消费高峰时可能需要等位"
+        },
+        {
+          "title": "规则提醒",
+          "content": "每张团购券建议2人使用"
+        },
+        {
+          "title": "包间",
+          "content": "可用包间，条件为：详询商户"
+        },
+        {
+          "title": "堂食外带",
+          "content": "仅限堂食，不提供餐前外带，餐毕未吃完可打包，打包费详情咨询商家"
+        },
+        {
+          "title": "商家服务",
+          "content": "提供免费WiFi"
+        }
+      ]
+    },
+    {
+      "id": "p-3",
+      "shopIds": [
+        "s-10",
+        "s-11",
+        "s-12"
+      ],
+      "nearestShop": "s-10",
+      "shop": "Salud冻酸奶",
+      "tag": "免预约",
+      "picture": "https://p0.meituan.net/deal/b7935e03809c771e42dfa20784ca6e5228827.jpg@450w_280h_1e_1c_1l|watermark=1&&r=1&p=9&x=2&y=2&relative=1&o=20",
+      "product": "「3店通用」百香果（冷饮）1扎",
+      "description": "仅售19.9元！价值48元的百香果（冷饮）1扎，提供免费WiFi。",
+      "currentPrice": 19.9,
+      "oldPrice": 48,
+      "saleDesc": "已售6034",
+      "detail": {
+        "category": "饮品",
+        "products": [
+          {
+            "name": "百果香（冷饮）",
+            "quantity": "1扎",
+            "price": "48元"
+          }
+        ],
+        "remark": "免费提供餐巾纸"
+      },
+      "validityPeriod": "2018-10-20至2019-09-15",
+      "purchaseNotes": [
+        {
+          "title": "除外日期",
+          "content": "有效期内周末、法定节假日可用"
+        },
+        {
+          "title": "使用时间",
+          "content": "团购券使用时间：11:00-22:00"
+        },
+        {
+          "title": "预约提醒",
+          "content": "无需预约，消费高峰时可能需要等位"
+        },
+        {
+          "title": "规则提醒",
+          "content": "每张团购券建议2人使用"
+        },
+        {
+          "title": "包间",
+          "content": "可用包间，条件为：详询商户"
+        },
+        {
+          "title": "堂食外带",
+          "content": "仅限堂食，不提供餐前外带，餐毕未吃完可打包，打包费详情咨询商家"
+        },
+        {
+          "title": "商家服务",
+          "content": "提供免费WiFi"
+        }
+      ]
+    },
+    {
+      "id": "p-4",
+      "shopIds": [
+        "s-10",
+        "s-11",
+        "s-12"
+      ],
+      "nearestShop": "s-10",
+      "shop": "吉野家",
+      "tag": "免预约",
+      "picture": "https://p0.meituan.net/deal/63a28065fa6f3a7e88271d474e1a721d32912.jpg@450w_280h_1e_1c_1l|watermark=1&&r=1&p=9&x=2&y=2&relative=1&o=20",
+      "product": "「3店通用」百香果（冷饮）1扎",
+      "description": "仅售19.9元！价值48元的百香果（冷饮）1扎，提供免费WiFi。",
+      "currentPrice": 19.9,
+      "oldPrice": 48,
+      "saleDesc": "已售6034",
+      "detail": {
+        "category": "饮品",
+        "products": [
+          {
+            "name": "百果香（冷饮）",
+            "quantity": "1扎",
+            "price": "48元"
+          }
+        ],
+        "remark": "免费提供餐巾纸"
+      },
+      "validityPeriod": "2018-10-20至2019-09-15",
+      "purchaseNotes": [
+        {
+          "title": "除外日期",
+          "content": "有效期内周末、法定节假日可用"
+        },
+        {
+          "title": "使用时间",
+          "content": "团购券使用时间：11:00-22:00"
+        },
+        {
+          "title": "预约提醒",
+          "content": "无需预约，消费高峰时可能需要等位"
+        },
+        {
+          "title": "规则提醒",
+          "content": "每张团购券建议2人使用"
+        },
+        {
+          "title": "包间",
+          "content": "可用包间，条件为：详询商户"
+        },
+        {
+          "title": "堂食外带",
+          "content": "仅限堂食，不提供餐前外带，餐毕未吃完可打包，打包费详情咨询商家"
+        },
+        {
+          "title": "商家服务",
+          "content": "提供免费WiFi"
+        }
+      ]
+    },
+    {
+      "id": "p-5",
+      "shopIds": [
+        "s-10",
+        "s-11",
+        "s-12"
+      ],
+      "nearestShop": "s-10",
+      "shop": "醉面 一碗醉香的肉酱面",
+      "tag": "免预约",
+      "picture": "https://p1.meituan.net/deal/a5d9800b5879d596100bfa40ca631396114262.jpg@450w_280h_1e_1c_1l|watermark=1&&r=1&p=9&x=2&y=2&relative=1&o=20",
+      "product": "「3店通用」百香果（冷饮）1扎",
+      "description": "仅售19.9元！价值48元的百香果（冷饮）1扎，提供免费WiFi。",
+      "currentPrice": 19.9,
+      "oldPrice": 48,
+      "saleDesc": "已售6034",
+      "detail": {
+        "category": "饮品",
+        "products": [
+          {
+            "name": "百果香（冷饮）",
+            "quantity": "1扎",
+            "price": "48元"
+          }
+        ],
+        "remark": "免费提供餐巾纸"
+      },
+      "validityPeriod": "2018-10-20至2019-09-15",
+      "purchaseNotes": [
+        {
+          "title": "除外日期",
+          "content": "有效期内周末、法定节假日可用"
+        },
+        {
+          "title": "使用时间",
+          "content": "团购券使用时间：11:00-22:00"
+        },
+        {
+          "title": "预约提醒",
+          "content": "无需预约，消费高峰时可能需要等位"
+        },
+        {
+          "title": "规则提醒",
+          "content": "每张团购券建议2人使用"
+        },
+        {
+          "title": "包间",
+          "content": "可用包间，条件为：详询商户"
+        },
+        {
+          "title": "堂食外带",
+          "content": "仅限堂食，不提供餐前外带，餐毕未吃完可打包，打包费详情咨询商家"
+        },
+        {
+          "title": "商家服务",
+          "content": "提供免费WiFi"
+        }
+      ]
+    },
+    {
+      "id": "p-100",
+      "shopIds": [
+        "s-10",
+        "s-11",
+        "s-12"
+      ],
+      "nearestShop": "s-10",
+      "shop": "泫舞舞蹈俱乐部",
+      "tag": "免预约",
+      "picture": "https://p1.meituan.net/dpdeal/a8eb71748e1f4df175668368e98bb4f868511.jpg@450w_280h_1e_1c_1l|watermark=1&&r=1&p=9&x=2&y=2&relative=1&o=20",
+      "product": "「3店通用」百香果（冷饮）1扎",
+      "description": "仅售19.9元！价值48元的百香果（冷饮）1扎，提供免费WiFi。",
+      "currentPrice": 19.9,
+      "oldPrice": 48,
+      "saleDesc": "已售6034",
+      "detail": {
+        "category": "饮品",
+        "products": [
+          {
+            "name": "百果香（冷饮）",
+            "quantity": "1扎",
+            "price": "48元"
+          }
+        ],
+        "remark": "免费提供餐巾纸"
+      },
+      "validityPeriod": "2018-10-20至2019-09-15",
+      "purchaseNotes": [
+        {
+          "title": "除外日期",
+          "content": "有效期内周末、法定节假日可用"
+        },
+        {
+          "title": "使用时间",
+          "content": "团购券使用时间：11:00-22:00"
+        },
+        {
+          "title": "预约提醒",
+          "content": "无需预约，消费高峰时可能需要等位"
+        },
+        {
+          "title": "规则提醒",
+          "content": "每张团购券建议2人使用"
+        },
+        {
+          "title": "包间",
+          "content": "可用包间，条件为：详询商户"
+        },
+        {
+          "title": "堂食外带",
+          "content": "仅限堂食，不提供餐前外带，餐毕未吃完可打包，打包费详情咨询商家"
+        },
+        {
+          "title": "商家服务",
+          "content": "提供免费WiFi"
+        }
+      ]
+    },
+    {
+      "id": "p-101",
+      "shopIds": [
+        "s-10",
+        "s-11",
+        "s-12"
+      ],
+      "nearestShop": "s-10",
+      "shop": "忍·寿司",
+      "tag": "免预约",
+      "picture": "https://p0.meituan.net/deal/2540cbdfbab2b413491101cee34bbb7a51839.jpg@450w_280h_1e_1c_1l|watermark=1&&r=1&p=9&x=2&y=2&relative=1&o=20",
+      "product": "「3店通用」百香果（冷饮）1扎",
+      "description": "仅售19.9元！价值48元的百香果（冷饮）1扎，提供免费WiFi。",
+      "currentPrice": 19.9,
+      "oldPrice": 48,
+      "saleDesc": "已售6034",
+      "detail": {
+        "category": "饮品",
+        "products": [
+          {
+            "name": "百果香（冷饮）",
+            "quantity": "1扎",
+            "price": "48元"
+          }
+        ],
+        "remark": "免费提供餐巾纸"
+      },
+      "validityPeriod": "2018-10-20至2019-09-15",
+      "purchaseNotes": [
+        {
+          "title": "除外日期",
+          "content": "有效期内周末、法定节假日可用"
+        },
+        {
+          "title": "使用时间",
+          "content": "团购券使用时间：11:00-22:00"
+        },
+        {
+          "title": "预约提醒",
+          "content": "无需预约，消费高峰时可能需要等位"
+        },
+        {
+          "title": "规则提醒",
+          "content": "每张团购券建议2人使用"
+        },
+        {
+          "title": "包间",
+          "content": "可用包间，条件为：详询商户"
+        },
+        {
+          "title": "堂食外带",
+          "content": "仅限堂食，不提供餐前外带，餐毕未吃完可打包，打包费详情咨询商家"
+        },
+        {
+          "title": "商家服务",
+          "content": "提供免费WiFi"
+        }
+      ]
+    },
+    {
+      "id": "p-102",
+      "shopIds": [
+        "s-10",
+        "s-11",
+        "s-12"
+      ],
+      "nearestShop": "s-10",
+      "shop": "关忠动物医院",
+      "tag": "免预约",
+      "picture": "https://p1.meituan.net/dpdeal/ef9356fa57c8382bfae0787101a69d2e164461.jpg@450w_280h_1e_1c_1l|watermark=1&&r=1&p=9&x=2&y=2&relative=1&o=20",
+      "product": "「3店通用」百香果（冷饮）1扎",
+      "description": "仅售19.9元！价值48元的百香果（冷饮）1扎，提供免费WiFi。",
+      "currentPrice": 19.9,
+      "oldPrice": 48,
+      "saleDesc": "已售6034",
+      "detail": {
+        "category": "饮品",
+        "products": [
+          {
+            "name": "百果香（冷饮）",
+            "quantity": "1扎",
+            "price": "48元"
+          }
+        ],
+        "remark": "免费提供餐巾纸"
+      },
+      "validityPeriod": "2018-10-20至2019-09-15",
+      "purchaseNotes": [
+        {
+          "title": "除外日期",
+          "content": "有效期内周末、法定节假日可用"
+        },
+        {
+          "title": "使用时间",
+          "content": "团购券使用时间：11:00-22:00"
+        },
+        {
+          "title": "预约提醒",
+          "content": "无需预约，消费高峰时可能需要等位"
+        },
+        {
+          "title": "规则提醒",
+          "content": "每张团购券建议2人使用"
+        },
+        {
+          "title": "包间",
+          "content": "可用包间，条件为：详询商户"
+        },
+        {
+          "title": "堂食外带",
+          "content": "仅限堂食，不提供餐前外带，餐毕未吃完可打包，打包费详情咨询商家"
+        },
+        {
+          "title": "商家服务",
+          "content": "提供免费WiFi"
+        }
+      ]
+    }
+  ],
+  "product_discounts": [
+    {
+      "id": "p-100",
+      "url": "https://m.dianping.com/tuan/deal/8225736?from=m_discount",
+      "shopId": "s-100",
+      "shop": "泫舞舞蹈俱乐部",
+      "product": "泫舞舞蹈俱乐部",
+      "currentPrice": 1,
+      "oldPrice": 400,
+      "picture": "https://p1.meituan.net/dpdeal/a8eb71748e1f4df175668368e98bb4f868511.jpg@120w_90h_1e_1c_1l|watermark=1&&r=1&p=9&x=20&y=20"
+    },
+    {
+      "id": "p-101",
+      "url": "https://m.dianping.com/tuan/deal/21954393?from=m_discount",
+      "shopId": "s-101",
+      "shop": "忍·寿司",
+      "product": "忍·寿司",
+      "currentPrice": 1,
+      "oldPrice": 2,
+      "picture": "https://p0.meituan.net/deal/2540cbdfbab2b413491101cee34bbb7a51839.jpg@120w_90h_1e_1c_1l|watermark=1&&r=1&p=9&x=20&y=20"
+    },
+    {
+      "id": "p-102",
+      "url": "https://m.dianping.com/tuan/deal/30093047?from=m_discount",
+      "shopId": "s-102",
+      "shop": "关忠动物医院",
+      "product": "关忠动物医院",
+      "currentPrice": 1,
+      "oldPrice": 349,
+      "picture": "https://p1.meituan.net/dpdeal/ef9356fa57c8382bfae0787101a69d2e164461.jpg@120w_90h_1e_1c_1l|watermark=1&&r=1&p=9&x=20&y=20"
+    }
+  ],
+  "product_likes": [
+    {
+      "id": "p-1",
+      "shopIds": [
+        "s-1",
+        "s-1",
+        "s-1"
+      ],
+      "shop": "院落创意菜",
+      "tag": "免预约",
+      "picture": "https://p0.meituan.net/deal/e6864ed9ce87966af11d922d5ef7350532676.jpg@180w_180h_1e_1c_1l_80q|watermark=0",
+      "product": "「3店通用」百香果（冷饮）1扎",
+      "currentPrice": 19.9,
+      "oldPrice": 48,
+      "saleDesc": "已售6034"
+    },
+    {
+      "id": "p-2",
+      "shopIds": [
+        "s-2"
+      ],
+      "shop": "正一味",
+      "tag": "免预约",
+      "picture": "https://p0.meituan.net/deal/4d32b2d9704fda15aeb5b4dc1d4852e2328759.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+      "product": "[5店通用] 肥牛石锅拌饭+鸡蛋羹1份",
+      "currentPrice": 29,
+      "oldPrice": 41,
+      "saleDesc": "已售15500"
+    },
+    {
+      "id": "p-3",
+      "shopIds": [
+        "s-3",
+        "s-3"
+      ],
+      "shop": "Salud冻酸奶",
+      "tag": "免预约",
+      "picture": "https://p0.meituan.net/deal/b7935e03809c771e42dfa20784ca6e5228827.jpg@180w_180h_1e_1c_1l_80q|watermark=0",
+      "product": "[2店通用] 冻酸奶（小杯）1杯",
+      "currentPrice": 20,
+      "oldPrice": 25,
+      "saleDesc": "已售88719"
+    },
+    {
+      "id": "p-4",
+      "shopIds": [
+        "s-4"
+      ],
+      "shop": "吉野家",
+      "tag": "免预约",
+      "picture": "https://p0.meituan.net/deal/63a28065fa6f3a7e88271d474e1a721d32912.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+      "product": "吉汁烧鱼+中杯汽水/紫菜蛋花汤1份",
+      "currentPrice": 14,
+      "oldPrice": 23.5,
+      "saleDesc": "已售53548"
+    },
+    {
+      "id": "p-5",
+      "shopIds": [
+        "s-5"
+      ],
+      "shop": "醉面 一碗醉香的肉酱面",
+      "tag": "免预约",
+      "picture": "https://p1.meituan.net/deal/a5d9800b5879d596100bfa40ca631396114262.jpg@180w_180h_1e_1c_1l_80q|watermark=0",
+      "product": "单人套餐",
+      "currentPrice": 17.5,
+      "oldPrice": 20,
+      "saleDesc": "已售23976"
+    }
+  ],
+  "shops": [
+    {
+      "id": "s-10",
+      "url": "https://m.dianping.com/shop/15953643",
+      "pic": "https://img.meituan.net/msmerchant/87aeebb940258678472b3c587e930399787685.jpg%40300w_225h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+      "shop": "院落创意菜(五彩城店)",
+      "star": 40,
+      "price": 99,
+      "commentQuantity": 6499,
+      "region": "清河",
+      "category": "私房菜",
+      "address": "清河中街68号华润五彩城购物中心东区5层",
+      "phone": "01069614833"
+    }
+  ],
+  "searched_shops": [
+    {
+      "id": "s-1",
+      "url": "https://m.dianping.com/shop/513329?from=shoplist&shoplistqueryid=af807de1-9f6f-4a99-900b-5c7e13ebdfd0",
+      "pic": "https://img.meituan.net/msmerchant/fd1c444778ad80fb823a6d35f5cd3819391040.jpg@120w_120h_1e_1c_1l|watermark=1&&r=1&p=9&x=2&y=2&relative=1&o=20",
+      "shop": "聚宝源(牛街总店)",
+      "star": 45,
+      "price": 106,
+      "commentQuantity": 20305,
+      "region": "牛街",
+      "category": "涮羊肉"
+    },
+    {
+      "id": "s-2",
+      "url": "https://m.dianping.com/shop/17677116?from=shoplist&shoplistqueryid=af807de1-9f6f-4a99-900b-5c7e13ebdfd0",
+      "pic": "https://img.meituan.net/msmerchant/4d572c74044624a05af25ef3e3fcdef5934234.jpg@120w_120h_1e_1c_1l|watermark=1&&r=1&p=9&x=2&y=2&relative=1&o=20",
+      "shop": "重八牛府(双榆树店)",
+      "star": 50,
+      "price": 92,
+      "quantity": 6715,
+      "region": "双榆树",
+      "category": "火锅"
+    },
+    {
+      "id": "s-3",
+      "url": "https://m.dianping.com/shop/98576594?from=shoplist&shoplistqueryid=af807de1-9f6f-4a99-900b-5c7e13ebdfd0",
+      "pic": "https://img.meituan.net/msmerchant/18e8565c5128f990283c84fda52c66c0348452.jpg@120w_120h_1e_1c_1l|watermark=1&&r=1&p=9&x=2&y=2&relative=1&o=20",
+      "shop": "斗川火锅(团结湖店)",
+      "star": 50,
+      "price": 104,
+      "quantity": 200,
+      "region": "三里屯",
+      "category": "重庆火锅"
+    },
+    {
+      "id": "s-4",
+      "url": "https://m.dianping.com/shop/93465484?from=shoplist&shoplistqueryid=df10efdf-cc04-4e18-9bc6-17271fe4a96f",
+      "pic": "https://p0.meituan.net/mogu/775f92acf78ae7888a822ff5e46b47af30012.png@120w_120h_1e_1c_1l|watermark=1&&r=1&p=9&x=2&y=2&relative=1&o=20",
+      "shop": "南门涮肉(东单店)",
+      "star": 50,
+      "price": 114,
+      "quantity": 4025,
+      "region": "王府井/东单",
+      "category": "四川火锅"
+    },
+    {
+      "id": "s-5",
+      "url": "https://m.dianping.com/shop/21411786?from=shoplist&shoplistqueryid=df10efdf-cc04-4e18-9bc6-17271fe4a96f",
+      "pic": "https://img.meituan.net/msmerchant/4d572c74044624a05af25ef3e3fcdef5934234.jpg@120w_120h_1e_1c_1l|watermark=1&&r=1&p=9&x=2&y=2&relative=1&o=20",
+      "shop": "重八牛府(双榆树店)",
+      "star": 50,
+      "price": 92,
+      "quantity": 6715,
+      "region": "双榆树",
+      "category": "涮羊肉"
+    }
+  ]
+}
