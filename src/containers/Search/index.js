@@ -15,12 +15,23 @@ import { connect } from "react-redux";
 
 class Search extends Component {
   handleEnter = text => {
-    this.props.searchActions.addSearchHistory(text);
+    const { addSearchHistory, fetchSearchedShops } = this.props.searchActions;
+
+    addSearchHistory(text);
+    fetchSearchedShops(text);
+    this.props.history.push("/search_result");
   };
   handleClick = text => {
-    const { setText, addSearchHistory } = this.props.searchActions;
+    const {
+      setText,
+      addSearchHistory,
+      fetchSearchedShops
+    } = this.props.searchActions;
+
     setText(text);
     addSearchHistory(text);
+    fetchSearchedShops(text);
+    this.props.history.push("/search_result");
   };
   clearSearchHistory = () => {
     const { clearText, clearSearchHistory } = this.props.searchActions;

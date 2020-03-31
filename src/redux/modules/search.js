@@ -1,7 +1,7 @@
 import { combineReducers } from "redux";
 import { get } from "../../utils/request";
 import url from "../../utils/url";
-import { schema } from "./entities/keywords";
+import { schema as keywordSchema } from "./entities/keywords";
 import { schema as shopSchema } from "./entities/shops";
 
 // state
@@ -11,7 +11,14 @@ const initialState = {
   keywords: {
     isFetching: false,
     ids: []
-  }
+  },
+  // {
+  //   "火锅": {
+  //     isFetching: false,
+  //       ids: []
+  //   }
+  // }
+  searchedShopsByKeyword: {}
 };
 
 // actions
@@ -26,7 +33,11 @@ const types = {
   // 获取搜索热门关键词
   FETCH_SEARCH_KEYWORDS_REQUEST: "SEARCH/FETCH_SEARCH_KEYWORDS_REQUEST",
   FETCH_SEARCH_KEYWORDS_SUCCESS: "SEARCH/FETCH_SEARCH_KEYWORDS_SUCCESS",
-  FETCH_SEARCH_KEYWORDS_FAILURE: "SEARCH/FETCH_SEARCH_KEYWORDS_FAILURE"
+  FETCH_SEARCH_KEYWORDS_FAILURE: "SEARCH/FETCH_SEARCH_KEYWORDS_FAILURE",
+  // 根据关键词查询店铺
+  FETCH_SEARCHED_SHOPS_REQUEST: "FETCH_SEARCHED_SHOPS_REQUEST",
+  FETCH_SEARCHED_SHOPS_SUCCESS: "FETCH_SEARCHED_SHOPS_SUCCESS",
+  FETCH_SEARCHED_SHOPS_FAILURE: "FETCH_SEARCHED_SHOPS_FAILURE"
 };
 
 export const actions = {
@@ -53,9 +64,23 @@ export const actions = {
       types.FETCH_SEARCH_KEYWORDS_SUCCESS,
       types.FETCH_SEARCH_KEYWORDS_FAILURE
     ],
-    schema,
+    schema: keywordSchema,
     callAPI: () => get(url.getSearchKeywords())
-  })
+  }),
+  // 获取根据关键词搜索的店铺
+  fetchSearchedShops: keyword => {
+    return {
+      types: [
+        types.FETCH_SEARCHED_SHOPS_REQUEST,
+        types.FETCH_SEARCHED_SHOPS_SUCCESS,
+        types.FETCH_SEARCHED_SHOPS_FAILURE
+      ],
+      schema: shopSchema,
+      shouldCallAPI: state => !state.search.searchedShopsByKeyword[keyword],
+      callAPI: () => get(url.getSearchedShops(keyword)),
+      payload: { text: keyword }
+    };
+  }
 };
 
 // reducers
@@ -97,10 +122,48 @@ const keywordsReducer = (state = initialState.keywords, action) => {
   }
 };
 
+const searchedShopsByKeywordReducer = (
+  state = initialState.searchedShopsByKeyword,
+  action
+) => {
+  switch (action.type) {
+    case types.FETCH_SEARCHED_SHOPS_REQUEST:
+    case types.FETCH_SEARCHED_SHOPS_SUCCESS:
+    case types.FETCH_SEARCHED_SHOPS_FAILURE:
+      return {
+        ...state,
+        [action.text]: searchedShopsReducer(state[action.text], action)
+      };
+    default:
+      return state;
+  }
+};
+
+const searchedShopsReducer = (
+  state = { isFetching: false, ids: [] },
+  action
+) => {
+  switch (action.type) {
+    case types.FETCH_SEARCHED_SHOPS_REQUEST:
+      return { ...state, isFetching: true };
+    case types.FETCH_SEARCHED_SHOPS_SUCCESS:
+      return {
+        ...state,
+        isFetching: false,
+        ids: action.response.ids
+      };
+    case types.FETCH_SEARCHED_SHOPS_FAILURE:
+      return { ...state, isFetching: false };
+    default:
+      return state;
+  }
+};
+
 export default combineReducers({
   text: textReducer,
   histories: historiesReducer,
-  keywords: keywordsReducer
+  keywords: keywordsReducer,
+  searchedShopsByKeyword: searchedShopsByKeywordReducer
 });
 
 // selectors
@@ -108,3 +171,18 @@ export const getText = state => state.search.text;
 export const getSearchHistories = state => state.search.histories;
 export const getSearchKeywords = state =>
   state.search.keywords.ids.map(id => state.entities.keywords[id]);
+export const getSearchedShops = state => {
+  const currentSearched = state.search.histories[0];
+  if (!currentSearched) {
+    return [];
+  }
+
+  const searchedShopIds =
+    state.search.searchedShopsByKeyword[currentSearched.text].ids;
+
+  return searchedShopIds.map(id => state.entities.shops[id]);
+};
+export const getCurrentKeyword = state => {
+  const keyword = state.search.histories[0];
+  return keyword ? keyword.text : "";
+};

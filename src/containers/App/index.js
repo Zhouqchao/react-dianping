@@ -8,6 +8,7 @@ import { actions as appActions, getError } from "../../redux/modules/app";
 import Home from "../Home";
 import ProductDetail from "../ProductDetail";
 import Search from "../Search";
+import SearchResult from "../SearchResult";
 
 class App extends React.Component {
   render() {
@@ -20,6 +21,9 @@ class App extends React.Component {
       <div className="App">
         <Router>
           <Switch>
+            <Route path="/search_result">
+              <SearchResult />
+            </Route>
             <Route path="/search">
               <Search />
             </Route>
