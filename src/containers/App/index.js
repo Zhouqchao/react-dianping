@@ -9,6 +9,7 @@ import Home from "../Home";
 import ProductDetail from "../ProductDetail";
 import Search from "../Search";
 import SearchResult from "../SearchResult";
+import Login from "../Login";
 
 class App extends React.Component {
   render() {
@@ -30,8 +31,8 @@ class App extends React.Component {
             <Route path="/detail/:id">
               <ProductDetail />
             </Route>
-            <Route path="/">
-              <Home />
+            <Route path="/login">
+              <Login />
             </Route>
             <Route path="/">
               <Home />
