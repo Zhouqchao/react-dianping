@@ -1,0 +1,40 @@
+.search-history {
+  background-color: #fff;
+  font-size: 15px;
+  color: #323232;
+  margin-top: 1px;
+}
+
+.search-history__title {
+  background-color: #f0f0f0;
+  padding: 8px 15px;
+  color: #999;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.search-history__list {
+  padding-left: 15px;
+  color: #323232;
+  background-color: #fff;
+}
+
+.search-history__item {
+  height: 48px;
+  line-height: 48px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-image: linear-gradient(0, #e1e1e1, #e1e1e1 50%, transparent 50%);
+  background-position: 100% 100%;
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+}
+
+.search-history__btn--clear {
+  height: 45px;
+  line-height: 45px;
+  color: #333;
+  text-align: center;
+  font-size: 15px;
+}

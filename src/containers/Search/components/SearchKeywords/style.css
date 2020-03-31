@@ -1,0 +1,32 @@
+.search-keywords {
+  margin-top: 45px;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #f0f0f0;
+}
+
+.search-keywords__list {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  color: #323232;
+  font-size: 14px;
+}
+
+.search-keywords__item {
+  width: calc(100% / 3);
+  text-align: center;
+  height: 38px;
+  line-height: 38px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.search-keywords__item:not(:nth-child(3n)) {
+  border-right: 1px solid#eee;
+}
+
+.search-keywords__item:nth-child(n-3) {
+  border-top: 1px solid #eee;
+}

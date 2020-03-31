@@ -1,0 +1,49 @@
+.search-box {
+  font-size: 14px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+}
+
+.search-box__container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 8px;
+}
+
+.search-box__input {
+  flex: 1;
+  background-color: #f0f0f0;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 30px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+
+.search-box__icon--clear {
+  background-image: url("https://www.dpfile.com/app/node-mobile-m-isomorphism-web/static/d53930bbff0bf22cb8cea72503da44d9.png");
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: 3px -185px;
+  width: 22px;
+  height: 34px;
+  margin-left: -25px;
+}
+
+.search-box__btn--cancel {
+  width: 48px;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #f63;
+}

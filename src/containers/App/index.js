@@ -7,6 +7,7 @@ import ErrorToast from "../../components/ErrorToast";
 import { actions as appActions, getError } from "../../redux/modules/app";
 import Home from "../Home";
 import ProductDetail from "../ProductDetail";
+import Search from "../Search";
 
 class App extends React.Component {
   render() {
@@ -19,6 +20,9 @@ class App extends React.Component {
       <div className="App">
         <Router>
           <Switch>
+            <Route path="/search">
+              <Search />
+            </Route>
             <Route path="/detail/:id">
               <ProductDetail />
             </Route>
@@ -30,7 +34,6 @@ class App extends React.Component {
             </Route>
           </Switch>
         </Router>
-
         {error && <ErrorToast msg={error} clearError={clearError} />}
       </div>
     );
