@@ -25,10 +25,11 @@
   "scripts": {
     "start": "node server.js",
     "dev": "concurrently 'react-scripts start' 'npm run serve'",
-    "build": "react-scripts build",
+    "build": "concurrently 'react-scripts build' 'npm run serve:prod'",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "serve": "node server.js env NODE_ENV=development"
+    "serve": "node server.js env NODE_ENV=development",
+    "serve:prod": "node server.js env NODE_ENV=production"
   },
   "eslintConfig": {
     "extends": "react-app"
