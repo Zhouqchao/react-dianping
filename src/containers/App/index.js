@@ -22,10 +22,11 @@ class App extends React.Component {
       error,
       appActions: { clearError }
     } = this.props;
+    const basename = process.env.PUBLIC_URL;
 
     return (
       <div className="App">
-        <Router>
+        <Router basename={basename}>
           <Switch>
             <Route path="/search_result">
               <SearchResult />
