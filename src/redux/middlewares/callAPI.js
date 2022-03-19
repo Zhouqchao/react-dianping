@@ -3,7 +3,7 @@ const normalizeData = (data, schema) => {
   let obj = {};
   let ids = [];
   if (Array.isArray(data)) {
-    data.map(item => {
+    data.forEach(item => {
       obj[item[id]] = item;
       ids.push(item[id]);
     });
